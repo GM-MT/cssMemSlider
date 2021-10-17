@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #59534f;
+}
+
+.container {
+	width: 98vw;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.slider-wrapper {
+	width: 90%;
+	max-width: 1200px;
+	max-height: 800px;
+	margin: 20px auto;	
+	
+	
+	
+}
+
+.slider-view {
+	border-radius: 10px;
+	border: 1px solid #fff;
+	overflow: hidden;
+}
+
+.sliderbar {
+	width: 400%;
+	/*min-width: 100%;*/
+	height: 42.5rem;
+	transition: .5s linear;
+}
+
+.slide {
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	/*transition: .5s linear;*/
+}
+
+.slide01 {
+	background: url(memes/01.jpg) no-repeat center/cover;
+	
+}
+
+.slide02 {
+	background: url(memes/02.jpg) no-repeat center/cover;
+}
+
+.slide03 {
+	background: url(memes/03.jpg) no-repeat center/cover;
+}
+
+.slide04 {
+	background: url(memes/04.jpg) no-repeat center/cover;
+}
