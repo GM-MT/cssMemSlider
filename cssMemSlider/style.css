@@ -179,3 +179,40 @@ body {
 #slide4:checked ~ .slider-bottom p {
 	transform: translate(-300%);
 }
+
+
+
+@media screen and (max-width: 1360px) {
+	.sliderbar {
+		height: 37.5rem;
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	.sliderbar {
+		height: 27rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.sliderbar {
+		height: 17rem;
+	}
+	.slider-bottom {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.slider-text {
+		align-self:  flex-start;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.sliderbar {
+		height: 12rem;
+	}
+}
